@@ -15,3 +15,28 @@
 ## Навыки
 
 _HTML, CSS, Bootstrap_
+
+## Примеры кода
+
+```
+ <div class="row justify-content-center">
+    <div class="col-xl-3 col-lg-4 mt-4">
+        <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>Our Address</h3>
+            <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+    </div>
+</div>
+```
+
+## Опыт работы
+
+### сорри, первый попавшийся взял(знаю, что не смешно)
+
+![безработный](no-work.jpg)
+
+## English
+
+- **Reading/Listening - B1**
+- **Talking - A2 где-то :D**

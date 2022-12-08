@@ -1,40 +1,37 @@
-# Сергей Левша
+# Sergey Levsha
 
-## Контакты для связи:
+## About Me
+1. Age: 22 years
+1. City: Rostov-on-Don, Russia
+1. Education: Higher Education - Bachelor of Computer Science
+1. Hobby: Sport, Anime, Music
 
+## Contacts
 - Telegram: @lesssonet
 - VK: @lesssonet
 
-## О себе
 
-1. Возраст: 22 года
-1. Место жительства: Ростов-на-Дону, Россия
-1. Образование: Высшее - бакалавр информационных систем
-1. Увлечения: спорт, аниме, музыка
+## Skills
 
-## Навыки
+_HTML, CSS, Bootstrap, JavaScript, PHP (Yii2), SQL, Git_
 
-_HTML, CSS, Bootstrap_
-
-## Примеры кода
+## Code Example
 
 ```
- <div class="row justify-content-center">
-    <div class="col-xl-3 col-lg-4 mt-4">
-        <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>Our Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
-        </div>
-    </div>
-</div>
+function multiply(a, b){
+  return a * b
+}
+
+let c = multiply(2, 2);
+console.log('c =', c);
 ```
 
-## Опыт работы
+## Work Experience
 
-_безработный.png_
-
+Freelance projects: creating simple landing pages.
 ## English
 
-- **Reading/Listening - B1**
-- **Talking - A2 где-то :D**
+- **Reading - B1**
+- **Listening - B1**
+- **Writing - B1**
+- **Speaking - A2**

@@ -1,15 +1,16 @@
 # Sergey Levsha
 
 ## About Me
+
 1. Age: 22 years
 1. City: Rostov-on-Don, Russia
 1. Education: Higher Education - Bachelor of Computer Science
-1. Hobby: Sport, Anime, Music
+1. Hobbies: Sport, Anime, Music
 
 ## Contacts
+
 - Telegram: @lesssonet
 - VK: @lesssonet
-
 
 ## Skills
 
@@ -29,6 +30,7 @@ console.log('c =', c);
 ## Work Experience
 
 Freelance projects: creating simple landing pages.
+
 ## English
 
 - **Reading - B1**

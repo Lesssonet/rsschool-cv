@@ -4,16 +4,13 @@ body {
   padding: 0;
   margin: 0;
 }
-/* * {
-  outline: 1px solid red;
-  } */
 
 .navbar {
   font-size: 24px;
 }
 
 .nav-link {
-  color: rgb(176, 83, 199);
+  color: rgb(0, 0, 0);
 }
 
 .nav-link:hover {
@@ -24,9 +21,9 @@ li{
   list-style: none;
 }
 
-.column {
-  background-color: rgba(255, 0, 242, 0.356);
-}
+/* .column {
+  background-color: rgba(138, 134, 117, 0.336);
+} */
 
 
 .avatar {
@@ -34,4 +31,22 @@ li{
   width: 250px;
   height: 250px;
   border-radius: 50%;
+}
+
+.skills-row{
+  outline: 1px solid rgb(0, 47, 255);
+}
+
+.english-row{
+  outline: 1px solid red;
+}
+
+.hobbies-row{
+  outline: 1px solid rgb(0, 255, 13);
+}
+
+.footer-github{
+  display: inline block;
+  text-decoration: none;
+  color: black;
 }

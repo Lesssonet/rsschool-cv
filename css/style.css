@@ -1,0 +1,33 @@
+.navbar {
+  font-size: 24px;
+}
+
+.nav-link {
+  color: rgb(176, 83, 199);
+}
+
+.nav-link:hover {
+  color: rgb(185, 5, 185);
+}
+
+main {
+  display: flex;
+}
+
+.column {
+  width: 25%;
+  height: 100vh;
+  background-color: rgba(186, 144, 224, 0.788);
+}
+
+.column-main {
+  width: 75%;
+  height: 100vh;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}

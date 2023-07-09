@@ -32,7 +32,7 @@
         <p><b>Discord/Telegram/Inst/VK: lesssonet</b></p>
       </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
       <h2>About Me</h2>
       <p>Hi, I'm 23 years old. Born in Russia. Graduated from Tech University in Rostov, but my skills still isn't
         enough to find a good job. I'll be doing my best to reach a good standard of living (I don't complain about my
@@ -40,7 +40,7 @@
         (Sometimes i really hate myself because of it). So this time will be my most important. Either I'll make it or
         I'll regret it.</p>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
       <h2>Skills</h2>
       <ul>
         <li>HTML</li>
@@ -52,30 +52,36 @@
 
     <div class="code">
       <h3>Example of Code (7 kyu)</h3>
-      <p>Determine the total number of digits in the integer (n &#62;= 0) given as input to the function. For example, 9
-        is a single digit, 66 has 2 digits and 128685 has 6 digits. Be careful to avoid overflows/underflows. All inputs
-        will be valid.</p>
+      <div class="text-code">
+        <p>Determine the total number of digits in the integer (n &#62;= 0) given as input to the function. For example,
+          9
+          is a single digit, 66 has 2 digits and 128685 has 6 digits. Be careful to avoid overflows/underflows. All
+          inputs
+          will be valid.</p>
+      </div>
       <code> <pre>
-        function digits(n) {
-          let q = 1;
-          while (n/10 && n &#62;9.9){
-            q = q + 1;
-            console.log(q);
-            n=n/10;
-          console.log(n);
-            
-          }
-          return q;
+    function digits(n) 
+    {
+      let q = 1;
+      while (n/10 && n &#62;9.9)
+      {
+        q = q + 1;
+        console.log(q);
+        n=n/10;
+        console.log(n);
+      }
+      return q;
+    }
       </pre>
-      }</code>
+      </code>
     </div>
 
-    <div class="education">
+    <div class="education" id="education">
       <h2>Education</h2>
       <h4>Bachelor of Don State Technical University (DSTU)</h4>
     </div>
 
-    <div class="english">
+    <div class="english" id="english">
       <h2>English</h2>
       <ul>
         <li>Listening: B1</li>
@@ -88,7 +94,11 @@
   </main>
 
   <footer>
-
+    <a href="https://github.com/Lesssonet">GitHub</a>
+    <p>2023</p>
+    <a href="https://app.rs.school/">
+      <img src="rs_school_js.svg" alt="rs-logo" width="96px" height="96px">
+    </a>
   </footer>
 </body>
 

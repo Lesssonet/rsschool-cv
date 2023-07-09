@@ -1,0 +1,83 @@
+body {
+  margin: 0 auto;
+  font-family: "Montserrat"
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav li {
+  font-size: 24px;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.avatar {
+  margin-left: 40px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.img-name {
+  margin: auto;
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: center;
+}
+
+.img-name h1 {
+  margin-top: 35px;
+}
+
+.name-contacts {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+
+.code {
+  text-align: center;
+}
+
+.education {
+  text-align: center;
+}
+
+.english h2 {
+  text-align: center;
+}
+
+.english ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}

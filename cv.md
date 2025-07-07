@@ -12,15 +12,15 @@
 - Telegram: @baymi423
 - Discord: lesssonet
 ## About Myself
-My goal is to reach end of the course. I wanna learn to code. I'm resposible person and really love planning everything. I didn't code since University. Work as a moderator in game dev studio.
+My goal is to complete the course. I want to learn how to code. I am a responsible person and I really love planning everything. I haven’t coded since university. I currently work as a moderator in a game development studio.
 ## Skills 
-HTML, CSS, JS, GIT
+HTML, CSS, JS, Git
 ## Codewars task
 
->You are given two sorted arrays that contain only integers. These arrays may be sorted in either ascending or descending order. Your task is to merge them into a single array, ensuring that:
-The resulting array is sorted in ascending order.
-Any duplicate values are removed, so each integer appears only once.
-If both input arrays are empty, return an empty array.
+> You are given two sorted arrays that contain only integers. These arrays may be sorted in either ascending or descending order. Your task is to merge them into a single array, ensuring that:
+> - The resulting array is sorted in ascending order.
+> - Any duplicate values are removed, so each integer appears only once.
+> - If both input arrays are empty, return an empty array.
  ```
  mergeArrays(arr1, arr2) {
   let arrSorted = arr1.concat(arr2).sort((a,b)=>a-b);
@@ -37,6 +37,7 @@ If both input arrays are empty, return an empty array.
 } 
 ```
 ## Education
-Bachelor of the DSTU. Computer Science.
+Bachelor’s degree, DSTU — Computer Science.
+
 ## English
-I think it's aroun intermediate. But in reality it's pre-intermediate.
+I think it's around intermediate. But in reality it's pre-intermediate.

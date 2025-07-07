@@ -12,3 +12,9 @@
 - Telegram: @baymi423
 ## About Myself
 My goal is to reach end of the course. I wanna learn to code. I'm resposible person and really love planning everything. I didn't code since University. Work as a moderator in game dev studio.
+## Skills 
+HTML, CSS, JS, GIT
+## Education
+Bachelor of the DSTU. Computer Science.
+## English
+I think it's aroun intermediate. But in reality it's pre-intermediate.

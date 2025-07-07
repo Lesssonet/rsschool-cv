@@ -21,7 +21,8 @@ HTML, CSS, JS, Git
 > - The resulting array is sorted in ascending order.
 > - Any duplicate values are removed, so each integer appears only once.
 > - If both input arrays are empty, return an empty array.
- ```
+
+ ```javascript
  mergeArrays(arr1, arr2) {
   let arrSorted = arr1.concat(arr2).sort((a,b)=>a-b);
   for (let i = 0; i < arrSorted.length; i++){

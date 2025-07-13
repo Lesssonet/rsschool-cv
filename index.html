@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contacts">
+            <div class="h1ava">
+                <h1>Sergey Levsha</h1>
+                <img src="/rsschool-cv/images/cat-meme.png" alt="cat-meme">
+            </div>
+
+            <ul class="contacts-list">
+                <li class="contacts-li"> <i class="fas fa-phone"></i>Phone: +7-909-234-21-56 </li>
+                <li class="contacts-li"><i class="fab fa-telegram"></i> Telegram: @baymi423 </li>
+                <li class="contacts-li"><i class="fab fa-discord"></i> Discord: lesssonet </li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Myself</h2>
+            <p>My goal is to complete the course. I want to learn how to code.
+                I am a responsible person and I really love planning everything. I haven't coded since university. I
+                currently work as a moderator in a game development studio.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-li"><i class="fab fa-html5"></i> HTML</li>
+                <li class="skills-li"><i class="fab fa-css3-alt"></i> CSS </li>
+                <li class="skills-li"> <i class="fab fa-js"></i>JS </li>
+                <li class="skills-li"><i class="fab fa-git-alt"></i> Git </li>
+            </ul>
+            <h2>Codewars Task</h2>
+            <div class="codewars">
+                <pre class="codewars-text">You are given two sorted arrays that contain only integers. These arrays may be sorted in either
+                ascending or descending order. Your task is to merge them into a single array, ensuring that:
+                • The resulting array is sorted in ascending order.
+                • Any duplicate values are removed, so each integer appears only once.
+                • If both input arrays are empty, return an empty array.</pre>
+ <pre class="code">
+mergeArrays(arr1, arr2) {
+  let arrSorted = arr1.concat(arr2).sort((a,b)=>a-b);
+  for (let i = 0; i &lt; arrSorted.length; i++){
+  let rep = arrSorted[i];
+  console.log(i);
+  if (rep == arrSorted[i + 1]) { arrSorted.splice(i, 1)}
+  console.log(arrSorted);
+  }console.log(arrSorted);
+  return arrSorted
+  } </pre>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><i class="fa fa-university" aria-hidden="true"></i> Bachelor's degree, DSTU — Computer Science.
+            </p>
+        </section>
+
+        <section id="english">
+            <h2>English</h2>
+            <p>I think it's around intermediate. But in reality it's pre-intermediate.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="footer-list">
+            <li class="footer-item"><a href="https://github.com/Lesssonet">GitHub</a></li>
+            <li class="footer-item">2025</li>
+            <li class="footer-item">
+                <a href="https://rs.school/courses/javascript-ru">
+                <img src="images/rs-school-logo.svg" alt="rs-logo" class="rs-logo"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

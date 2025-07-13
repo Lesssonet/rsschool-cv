@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
+    rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <title>Document</title>
@@ -56,24 +58,25 @@
                 <li class="skills-li"><i class="fab fa-git-alt"></i> Git </li>
             </ul>
             <h2>Codewars Task</h2>
-            <pre>You are given two sorted arrays that contain only integers. These arrays may be sorted in either
+            <div class="codewars">
+                <pre class="codewars-text">You are given two sorted arrays that contain only integers. These arrays may be sorted in either
                 ascending or descending order. Your task is to merge them into a single array, ensuring that:
-                The resulting array is sorted in ascending order.
-                Any duplicate values are removed, so each integer appears only once.
-                If both input arrays are empty, return an empty array.</pre>
-            <code>mergeArrays(arr1, arr2) {
-                                            let arrSorted = arr1.concat(arr2).sort((a,b)=>a-b);
-                                            for (let i = 0; i < arrSorted.length; i++){
-                                            let rep = arrSorted[i];
-                                            console.log(i);
-                                            if (rep == arrSorted[i + 1]) { arrSorted.splice(i, 1)}
-                                                console.log(arrSorted);
+                • The resulting array is sorted in ascending order.
+                • Any duplicate values are removed, so each integer appears only once.
+                • If both input arrays are empty, return an empty array.</pre>
+ <pre class="code">
+mergeArrays(arr1, arr2) {
+  let arrSorted = arr1.concat(arr2).sort((a,b)=>a-b);
+  for (let i = 0; i < arrSorted.length; i++){
+  let rep = arrSorted[i];
+  console.log(i);
+  if (rep == arrSorted[i + 1]) { arrSorted.splice(i, 1)}
+  console.log(arrSorted);
+  }console.log(arrSorted);
+  return arrSorted
+  } </pre>
+            </div>
 
-                                            //     return arrSorted
-                                            }
-                                            console.log(arrSorted);
-                                            return arrSorted
-            } </code>
         </section>
 
         <section id="education">

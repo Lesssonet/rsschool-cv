@@ -89,3 +89,22 @@ h1 {
         color: #b10995;
       font-size: 34px;
 }
+
+.codewars{
+  display: block;
+  text-align: center; }
+
+.codewars-text{
+    font: inherit;
+}
+
+.code{
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 6px;
+  background-color: rgb(189, 180, 180);
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  white-space: pre-wrap;        
+  width: fit-content;   
+}
